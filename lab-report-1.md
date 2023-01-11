@@ -3,3 +3,6 @@
 
 Head to this [link](https://sdacs.ucsd.edu/~icc/index.php). You should login using your username for your triton link account, and your student ID number on this page.
 <img width="667" alt="Screen Shot 2023-01-11 at 12 18 32 PM" src="https://user-images.githubusercontent.com/49798755/211909206-ca5c1dbd-14ff-4e30-9f60-245cf6f8ed16.png">
+Once you've signed in, you'll land on a page that looks like this.
+<img width="779" alt="Screen Shot 2023-01-11 at 12 24 15 PM" src="https://user-images.githubusercontent.com/49798755/211910714-2296f07a-4459-42e7-81ac-cc6fd51d697a.png">
+Go ahead and click on the button where the arrow is pointing to. Then proceed to change your password, and make sure to uncheck the two boxes at the bottom of the page so the rest of your passwords do not get changed. Your account is now ready to be used.
