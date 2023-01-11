@@ -10,3 +10,7 @@ Once you've signed in, you'll land on a page that looks like this.
 <img width="779" alt="Screen Shot 2023-01-11 at 12 24 15 PM" src="https://user-images.githubusercontent.com/49798755/211911454-c1813565-0045-4b8b-88f9-6b8a31e07b33.png">
 
 Go ahead and click on the button where the arrow is pointing to. Then proceed to change your password, and make sure to uncheck the two boxes at the bottom of the page so the rest of your passwords do not get changed. Your account is now ready to be used.
+
+## Downloading Visual Studio Code
+
+Go to this [link] (https://code.visualstudio.com/) and follow the instruction to download it onto your computer.
