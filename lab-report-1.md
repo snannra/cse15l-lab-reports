@@ -13,4 +13,8 @@ Go ahead and click on the button where the arrow is pointing to. Then proceed to
 
 ## Downloading Visual Studio Code
 
-Go to this [link](https://code.visualstudio.com/) and follow the instruction to download it onto your computer.
+Go to this [link](https://code.visualstudio.com/) and follow the instruction to download it onto your computer. 
+
+![Screen Shot 2023-01-14 at 6 32 20 PM](https://user-images.githubusercontent.com/49798755/212519955-e880dc56-c497-4801-9278-4b135ed33b7c.png)
+
+Once the download has completed, open the download on the computer and allocate the proper information in the correct folders of your choosing.
