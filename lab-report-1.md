@@ -30,3 +30,17 @@ Once you've logged in successfully, your terminal should look like this. (This m
 ![image](https://user-images.githubusercontent.com/49798755/212520162-b5aa0a2a-b2c4-430e-b1a5-c2b4667cf8fc.png)
 
 ## Trying Some Commands
+
+Now we'll try running some commands. Here are a list of a few commands that you can run.
+
+![Screen Shot 2023-01-14 at 6 44 12 PM](https://user-images.githubusercontent.com/49798755/212520233-0bfe0d50-2807-4ee1-993a-8796bd202f8f.png)
+
+Note that some of these commands might not work due to the your information is structured on your remote account. You can try this sequence of commands that would create a directory, create a new file, write to that file, and finally print the contents of that file. 
+
+1. mkdir test
+2. cd test
+3. touch file1
+4. echo hello >> file1
+5. cat file1
+
+Congratulations, you've properly set up and tested your remote computer for CSE 15L.
