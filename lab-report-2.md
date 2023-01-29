@@ -3,6 +3,7 @@
 Here is the code that I wrote for the String Server project.
 
 '''
+# code block
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -43,6 +44,7 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
+
 '''
 
 In my code, I created an ArrayList of all the words that would be added and needed to be printed on the screen. To print them out, I ran a for loop to go through the ArrayList and added all the words plus the new line character to a string which was eventually printed out.
