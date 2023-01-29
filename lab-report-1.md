@@ -35,6 +35,12 @@ Now we'll try running some commands. Here are a list of a few commands that you 
 
 ![Screen Shot 2023-01-14 at 6 44 12 PM](https://user-images.githubusercontent.com/49798755/212520233-0bfe0d50-2807-4ee1-993a-8796bd202f8f.png)
 
+When I run some of these commands, these are the outputs that I get.
+
+![image](https://user-images.githubusercontent.com/49798755/215360382-32959b91-81ba-41e4-b62b-2c7ccdb9445b.png)
+
+As we can see, some of these produce an output while some do not. Certain basic commands such as **ls -lat** work because they do not require a certain file structure. This function only lists the files on the computer. However, commands that are more specifc do not work. The command **ls /home/linux/ieng6/cs15lwi23/cs15lwi23abc** did not work because this file directory does not yet exist on my remote computer. This activity has taught me the importance of file structure and organization when writing intense programs.
+
 Note that some of these commands might not work due to the your information is structured on your remote account. You can try this sequence of commands that would create a directory, create a new file, write to that file, and finally print the contents of that file. 
 
 1. mkdir test
