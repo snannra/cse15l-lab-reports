@@ -61,5 +61,83 @@ In this section, the handleRequest method is still called, which still calls .ge
 
 ## Part 2: Bug Analysis
 
+The bug that I decided to work on from lab 3 is fixing the reversed method.
+
+```
+// Failure Inducing Input
+@Test
+  public void testReverseNewArray() {
+    int[] input = {1, 2, 3, 4};
+    int[] expected = {4, 3, 2, 1};
+    ArrayExamples newObj = new ArrayExamples();
+    int[] realOutput = newObj.reversed(input);
+    assertArrayEquals(expected, realOutput);
+  }
+  
+  @Test
+  public void testReverseNewArray() {
+    int[] input = {1, 3, 5};
+    int[] expected = {5, 3, 1};
+    ArrayExamples newObj = new ArrayExamples();
+    int[] realOutput = newObj.reversed(input);
+    assertArrayEquals(expected, realOutput);
+  }
+```
+**Symptom**
+When the arrays are compared, the first value of expected is 4, while the real output first value is 0.
+![image](https://user-images.githubusercontent.com/49798755/215366233-0e9bcc34-6a16-40b8-b28a-ee1f7a21f838.png)
+When the arrays are compared, the first value of expected is 5, while the real output first value is 0.
+![image](https://user-images.githubusercontent.com/49798755/215366305-3c6832f5-12e3-437a-a8f6-970e8d4d4709.png)
+
+```
+// Input that doesn't include a failure
+@Test
+  public void testReverseNewArray() {
+    int[] input = {0, 0};
+    int[] expected = {0, 0};
+    ArrayExamples newObj = new ArrayExamples();
+    int[] realOutput = newObj.reversed(input);
+    assertArrayEquals(expected, realOutput);
+  }
+  
+  @Test
+  public void testReverseNewArray() {
+    int[] input = {0, 0, 0};
+    int[] expected = {0, 0, 0};
+    ArrayExamples newObj = new ArrayExamples();
+    int[] realOutput = newObj.reversed(input);
+    assertArrayEquals(expected, realOutput);
+  }
+```
+**Symptom**
+When the arrays are compared, all the values are the same because they are all 0 for both test cases, so there is no output code since the tests pass.
+
+```
+// Before Code
+// Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+```
+// After Code
+// Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
 ## Part 3: Reflection
+
 One extremely important thing that I learned in week 2 and 3 is the importance of being able to test our own code properly. In our first CSE 12 assignment our test cases were given to us, but after week 2 and 3 in CSE 15L I see the value in being able to create our own tests and how that helps us understand the limitations and capabilites of our own code better. In addition, I believe that becoming more fluent with creating Junit tests can help me with my own projects and my career in the future.
