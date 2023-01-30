@@ -50,9 +50,11 @@ In my code, I created an ArrayList of all the words that would be added and need
 Here is an example of the code working:
 
 ![image](https://user-images.githubusercontent.com/49798755/215362275-8dd77a05-8124-456d-8f78-6cc022abbd38.png)
+
 In my code, the first thing that is called is the handleRequest method, which also calls .getPath(), .equals(), .getQuery(), .split() and .size(). The arguments that the handleRequest method takes in is the url. There are relevant values for these methods, .getPath(), .equals() and .size(). The .getPath() method is important because it uses .equals() to make sure that they are typing in "/add-message" and if they're not, then a 404 error is returned. Addtionally the .size() method is important for the for loop so that it knows how many times to repeat based on the values that are added to the ArrayList. These values change based on the entries and the number of entries.
 
 Here is another example of the code working again to demostrate that all words are printed:
 
 ![image](https://user-images.githubusercontent.com/49798755/215362304-896c0f25-de18-42aa-bc9c-a6be845e999b.png)
-In this section, the handleRequest method is still called, which still calls .getPath(), .equals(), .getQuery(), .split() and .size(), however the way the code executes is slightly different. 
+
+In this section, the handleRequest method is still called, which still calls .getPath(), .equals(), .getQuery(), .split() and .size(), however the way the code executes is slightly different. The relevant values for this method are still .getPath(), .equals() and .size(). The .getPath() and .equals() methods run the same however size is now 2 instead of 1, so the for loop runs twice and two items are now added to the output variable. Thus the output variable has changed compared to the previous example, however the .getPath() and .equals() methods didn't change.
