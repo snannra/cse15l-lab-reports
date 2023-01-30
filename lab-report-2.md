@@ -61,3 +61,5 @@ In this section, the handleRequest method is still called, which still calls .ge
 
 ## Part 2: Bug Analysis
 
+## Part 3: Reflection
+One extremely important thing that I learned in week 2 and 3 is the importance of being able to test our own code properly. In our first CSE 12 assignment our test cases were given to us, but after week 2 and 3 in CSE 15L I see the value in being able to create our own tests and how that helps us understand the limitations and capabilites of our own code better. In addition, I believe that becoming more fluent with creating Junit tests can help me with my own projects and my career in the future.
