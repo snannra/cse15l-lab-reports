@@ -137,6 +137,7 @@ When the arrays are compared, all the values are the same because they are all 0
     return newArray;
   }
 ```
+The original program was setting the values that newArray contained to the indexes of arr, and was returning array at the end. Since newArray is a newly created array with only a size, all of the indexes were set to 0, so all the values in arr were being set to 0. So by changing the code so that the indexes of newArray were set to the values of arr, newArray ended up with the correct values, and the correct array was returned.
 
 ## Part 3: Reflection
 
