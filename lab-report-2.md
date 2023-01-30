@@ -58,3 +58,6 @@ Here is another example of the code working again to demostrate that all words a
 ![image](https://user-images.githubusercontent.com/49798755/215362304-896c0f25-de18-42aa-bc9c-a6be845e999b.png)
 
 In this section, the handleRequest method is still called, which still calls .getPath(), .equals(), .getQuery(), .split() and .size(), however the way the code executes is slightly different. The relevant values for this method are still .getPath(), .equals() and .size(). The .getPath() and .equals() methods run the same however size is now 2 instead of 1, so the for loop runs twice and two items are now added to the output variable. Thus the output variable has changed compared to the previous example, however the .getPath() and .equals() methods didn't change.
+
+## Part 2: Bug Analysis
+
