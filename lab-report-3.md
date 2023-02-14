@@ -253,6 +253,7 @@ non-fiction/OUP/Rybczynski/ch1.txt
 non-fiction/OUP/Rybczynski/ch2.txt
 non-fiction/OUP/Rybczynski/ch3.txt
 ```
+The -P command-line option for the find command stands for -print, and prints out the path of all the files found within the given directory. This is useful if you're trying to see which files are in which directories from an above view.
 
 ## find -delete directory
 
