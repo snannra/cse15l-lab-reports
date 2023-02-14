@@ -246,6 +246,7 @@ Searches for directories.
 ./travel_guides/berlitz1
 ./travel_guides/berlitz2
 ```
+The -type command-line option searches for a certain type of object in the given directory. The f option searches for normal files, and the d option searches for directories. This is useful because it shows all the files of a certain type in the given directory.
 
 ## find -size directory
 
