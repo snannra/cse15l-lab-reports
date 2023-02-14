@@ -89,7 +89,7 @@ The bug that I decided to work on from lab 3 is fixing the reversed method.
 When the arrays are compared, the first value of expected is 4, while the real output first value is 0.
 ![image](https://user-images.githubusercontent.com/49798755/218658551-1b790245-b6cf-4115-a087-981cf8f7eee6.png)
 When the arrays are compared, the first value of expected is 5, while the real output first value is 0.
-![image](https://user-images.githubusercontent.com/49798755/218658731-e6ac0848-2d85-48d1-8ec9-097faf2c8877.png)
+![image](https://user-images.githubusercontent.com/49798755/218659361-4ee3cd48-9843-4564-bce9-91f3ec75b368.png)
 
 ```
 // Input that doesn't include a failure
@@ -104,8 +104,8 @@ When the arrays are compared, the first value of expected is 5, while the real o
   
   @Test
   public void testReverseNewArray() {
-    int[] input = {0, 0, 0};
-    int[] expected = {0, 0, 0};
+    int[] input = {};
+    int[] expected = {};
     ArrayExamples newObj = new ArrayExamples();
     int[] realOutput = newObj.reversed(input);
     assertArrayEquals(expected, realOutput);
