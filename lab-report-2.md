@@ -45,6 +45,7 @@ class StringServer {
 }
 ```
 
+
 In my code, I created an ArrayList of all the words that would be added and needed to be printed on the screen. To print them out, I ran a for loop to go through the ArrayList and added all the words plus the new line character to a string which was eventually printed out.
 
 Here is an example of the code working:
