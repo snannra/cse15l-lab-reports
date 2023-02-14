@@ -1,6 +1,8 @@
 # Lab Report 3: find commands
 
-## find -type directory
+All of the information found about the different command lines was found using ChatGPT.
+
+## find -type
 Searches for normal files.
 ```
 [cs15lwi23aar@ieng6-203]:written_2:262$ find . -type f
@@ -248,7 +250,7 @@ Searches for directories.
 ```
 The -type command-line option searches for a certain type of object in the given directory. The f option searches for normal files, and the d option searches for directories. This is useful because it shows all the files of a certain type in the given directory.
 
-## find -size directory
+## find -size 
 Searches for files larger than 100 kilobytes.
 ```
 [cs15lwi23aar@ieng6-203]:written_2:282$ find . -size +100k
@@ -742,5 +744,22 @@ non-fiction/OUP/Rybczynski/ch3.txt
 ```
 The -P command-line option for the find command stands for -print, and prints out the path of all the files found within the given directory. This is useful if you're trying to see which files are in which directories from an above view.
 
-## find -delete directory
+## find directory -delete 
 
+Deletes the berlitz1 directory.
+```
+[cs15lwi23aar@ieng6-203]:travel_guides:295$ ls
+berlitz1
+[cs15lwi23aar@ieng6-203]:travel_guides:296$ find berlitz1/ -delete
+[cs15lwi23aar@ieng6-203]:travel_guides:297$ ls
+[cs15lwi23aar@ieng6-203]:travel_guides:298$ 
+```
+Deletes the OUP directory.
+```
+[cs15lwi23aar@ieng6-203]:non-fiction:300$ ls
+OUP
+[cs15lwi23aar@ieng6-203]:non-fiction:301$ find OUP/ -delete
+[cs15lwi23aar@ieng6-203]:non-fiction:302$ ls
+[cs15lwi23aar@ieng6-203]:non-fiction:303$ 
+```
+The -delete command-option searches through a directory and deletes the specified folder or file that it is directed to. This is useful for deleting directories or large amount of files at once.
