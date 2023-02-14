@@ -87,9 +87,9 @@ The bug that I decided to work on from lab 3 is fixing the reversed method.
 ```
 **Symptom**
 When the arrays are compared, the first value of expected is 4, while the real output first value is 0.
-![image](https://user-images.githubusercontent.com/49798755/215366233-0e9bcc34-6a16-40b8-b28a-ee1f7a21f838.png)
+![image](https://user-images.githubusercontent.com/49798755/218658551-1b790245-b6cf-4115-a087-981cf8f7eee6.png)
 When the arrays are compared, the first value of expected is 5, while the real output first value is 0.
-![image](https://user-images.githubusercontent.com/49798755/215366305-3c6832f5-12e3-437a-a8f6-970e8d4d4709.png)
+![image](https://user-images.githubusercontent.com/49798755/218658731-e6ac0848-2d85-48d1-8ec9-097faf2c8877.png)
 
 ```
 // Input that doesn't include a failure
