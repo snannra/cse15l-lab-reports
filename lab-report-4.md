@@ -13,7 +13,7 @@
 ![image](https://user-images.githubusercontent.com/49798755/221384845-9c74df32-3f31-477f-b488-a37b104d26ee.png)
   
 8. To run the tests again I pressed 
-'''<up><up><up><enter>, <up><up><up><enter>'''
+```<up><up><up><enter>, <up><up><up><enter>```
 ![image](https://user-images.githubusercontent.com/49798755/221384987-e489f0db-0ef3-4947-8029-3330e0c6022d.png)
   
 9. To commit and push the changes to my github account I typed _github add ListExamples.java_ and hit enter then typed _git commit -m "updated"_ to commit the changes to the repository.
