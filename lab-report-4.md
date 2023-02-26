@@ -10,6 +10,7 @@
 ![image](https://user-images.githubusercontent.com/49798755/221384360-f9e82a5c-797f-4cdc-a4bb-65540729e733.png)
 
 7. I typed _nano ListExamples.java_ which opened up the nano environment. From there I hit <down> approximately 42 times and <right> 12 times. I then deleted the 1 and replaced it with a 2. I pressed Ctrl-O and enter to save the file and Ctrl-X to exit.
+  
 ![image](https://user-images.githubusercontent.com/49798755/221384845-9c74df32-3f31-477f-b488-a37b104d26ee.png)
   
 8. To run the tests again I pressed 
