@@ -10,7 +10,7 @@
 
 6.To run the tests I went to [this](https://ucsd-cse15l-w23.github.io/week/week3/) link to find the correct commands to run to test the files. I scrolled to the image that said MAC USERS and copied the first line of text, ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, and pasted it into the terminal and hit enter. I then copied the second line and replaced ```ArrayTests``` with ```ListExamplesTests``` and typed it into the terminal and hit enter.
 
-![image](https://user-images.githubusercontent.com/49798755/221384360-f9e82a5c-797f-4cdc-a4bb-65540729e733.png)
+![image](https://user-images.githubusercontent.com/49798755/221447916-859fb7e2-4423-4b21-8283-92dfef6dc44f.png)
 
 7.I typed ```nano ListExamples.java``` which opened up the nano environment. From there I hit ```<down>``` approximately 42 times and ```<right>``` 12 times. I then deleted the 1 and replaced it with a 2. I pressed Ctrl-O and enter to save the file and Ctrl-X to exit.
   
