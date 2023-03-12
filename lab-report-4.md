@@ -4,8 +4,6 @@
 
 ![image](https://user-images.githubusercontent.com/497987 55/221383543-af9b27d6-7372-48cf-9003-4e969b3d856e.png)<br />
 
-<br /> <br />
-
 <br />
 5.I then went to https://github.com/username/lab7 which is where the cloned repository was. After clicking the <> Code button in the top right, I copied the SSH link. I then typed ```git clone git@github.com:snannra/lab7.git``` into the terminal.
 
