@@ -1,6 +1,6 @@
 # Lab Report 4
 ## Steps starting at step 4
-4.For this step I typed in ssh cs15lwi23xxx@ieng6.ucsd.edu (xxx is the letters specific to my account). I did not need to type in a password due to the setup that I did during lab.
+4.For this step I typed in ```ssh cs15lwi23xxx@ieng6.ucsd.edu``` (xxx is the letters specific to my account). I did not need to type in a password due to the setup that I did during lab.
 
 ![image](https://user-images.githubusercontent.com/49798755/221383543-af9b27d6-7372-48cf-9003-4e969b3d856e.png) 
 
