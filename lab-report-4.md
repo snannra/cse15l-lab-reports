@@ -14,7 +14,7 @@
 
 ![image](https://user-images.githubusercontent.com/49798755/221447916-859fb7e2-4423-4b21-8283-92dfef6dc44f.png)
 
-7.I typed ```nano ListExamples.java``` which opened up the nano environment. From there I hit ```<down>``` approximately 42 times and ```<right>``` 12 times. I then deleted the 1 and replaced it with a 2. I pressed Ctrl-O and enter to save the file and Ctrl-X to exit.
+7.I typed ```nano ListExamples.java``` which opened up the nano environment. From there I hit ```<down>``` approximately 42 times and ```<right>``` 12 times. I pressed <Backspace> to delete the 1 and replaced it with a 2. I pressed <Ctrl-O> and enter to save the file and <Ctrl-X> to exit.
   
 ![image](https://user-images.githubusercontent.com/49798755/221384845-9c74df32-3f31-477f-b488-a37b104d26ee.png)
   
