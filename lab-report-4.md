@@ -10,7 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/49798755/221383632-61bf810c-01a2-40d4-ba05-7657d57414cf.png)
 
-6.To run the tests I went to [this](https://ucsd-cse15l-w23.github.io/week/week3/) link to find the correct commands to run to test the files. I scrolled to the image that said MAC USERS and copied the first line of text, ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, and pasted it into the terminal and hit enter. I then copied the second line, ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` , and replaced _ArrayTests_ with _ListExamplesTests_ and typed it into the terminal and hit enter.
+6.To run the tests I went to [this](https://ucsd-cse15l-w23.github.io/week/week3/) link to find the correct commands to run to test the files. I scrolled to the image that said MAC USERS and copied the first line of text, ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, and pasted it into the terminal and hit enter. I then copied the second line, ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` , and replaced ```ArrayTests``` with ```ListExamplesTests``` and typed it into the terminal and hit enter.
 
 ![image](https://user-images.githubusercontent.com/49798755/221447916-859fb7e2-4423-4b21-8283-92dfef6dc44f.png)
 
