@@ -2,7 +2,7 @@
 ## Steps starting at step 4
 4.For this step I typed in ```ssh cs15lwi23xxx@ieng6.ucsd.edu``` (xxx is the letters specific to my account). I did not need to type in a password due to the setup that I did during lab.
 
-![image](https://user-images.githubusercontent.com/497987 55/221383543-af9b27d6-7372-48cf-9003-4e969b3d856e.png) 
+![image](https://user-images.githubusercontent.com/49798755/221383543-af9b27d6-7372-48cf-9003-4e969b3d856e.png) 
 
 5.I then went to https://github.com/username/lab7 which is where the cloned repository was. After clicking the <> Code button in the top right, I copied the SSH link. I then typed ```git clone git@github.com:snannra/lab7.git``` into the terminal.
 
