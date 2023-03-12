@@ -5,10 +5,12 @@
 ![image](https://user-images.githubusercontent.com/49798755/221383543-af9b27d6-7372-48cf-9003-4e969b3d856e.png) 
 
 5.I then went to https://github.com/username/lab7 which is where the cloned repository was. After clicking the <> Code button in the top right, I copied the SSH link. I then typed ```git clone git@github.com:snannra/lab7.git``` into the terminal.
-  
+
+![image](https://user-images.githubusercontent.com/49798755/224518861-a079f82c-1460-4954-8bdd-36e71837b4f8.png)
+
 ![image](https://user-images.githubusercontent.com/49798755/221383632-61bf810c-01a2-40d4-ba05-7657d57414cf.png)
 
-6.To run the tests I went to [this](https://ucsd-cse15l-w23.github.io/week/week3/) link to find the correct commands to run to test the files. I scrolled to the image that said MAC USERS and copied the first line of text, ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, and pasted it into the terminal and hit enter. I then copied the second line and replaced ```ArrayTests``` with ```ListExamplesTests``` and typed it into the terminal and hit enter.
+6.To run the tests I went to [this](https://ucsd-cse15l-w23.github.io/week/week3/) link to find the correct commands to run to test the files. I scrolled to the image that said MAC USERS and copied the first line of text, ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, and pasted it into the terminal and hit enter. I then copied the second line, ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` , and replaced ```ArrayTests``` with ```ListExamplesTests``` and typed it into the terminal and hit enter.
 
 ![image](https://user-images.githubusercontent.com/49798755/221447916-859fb7e2-4423-4b21-8283-92dfef6dc44f.png)
 
