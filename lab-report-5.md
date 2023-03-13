@@ -285,7 +285,7 @@ ch1.txt:Much research conﬁrms that overloading children with input leads to di
 ch2.txt:To illustrate, suppose someone asked you to “tell the story of your life.” In forming a spontaneous autobiography, people link together smaller stories about incidents and occasions, with the self at their center and other inﬂuential people in supporting roles. The narrator arranges the stories sequentially, to conform to a culturally accepted organization of time. And he or she not only recounts, but justifies the stories—that is, makes them comprehensible by explaining why they happened as they did.53 
 ch7.txt:In a recent Australian study carried out by psychologist Freda Briggs, several hundred schoolchildren were asked for their views on school and classroom activities. Many boys between 5 and 9 years of age expressed dissatisfaction with school and said that their favorite activities were recess and lunchtime. But in four classrooms, distinguished by an activity-center curriculum offering opportunities for individual choice, small-group work, and literacy experiences responsive to children’s interests, boys reported strong liking for school. And they named reading and writing as their favorite activities. They particularly enjoyed making their own books, based on themes of sports and hobbies.71
 ```
-
+\
 Searches through the entire ```Berk``` directory for the word "chess".
 
 ```
@@ -293,11 +293,11 @@ Searches through the entire ```Berk``` directory for the word "chess".
 CH4.txt:In the simple games of the late preschool and early school years, the play goal is very clear—in hide-and-seek, to keep the person who is “it” from ﬁnding you; in Chutes and Ladders, to travel a road with as many shortcuts and as few setbacks as possible, getting to the ﬁnish line ﬁrst. Gradually, the goals of children’s games become more distant and complex. Attaining those goals requires more intermediate steps and greater knowledge, skill, and coordination of play actions with those of others—in T-ball and kickball, scoring more runs than the other team while adhering to fair procedures for batting, pitching, and ﬁelding; in chess, moving each type of piece according to its special rule in an effort to checkmate the opposing king. 
 CH4.txt:Around ages 7 and 8, as children become more conscious of the rules of play, they like to act out scripted puppet shows and plays. As informal make-believe declines, game play strengthens. By the end of this period, children formulate and implement strategies and cooperate more effectively in games. They have also become interested in competition. Hence, they are ready for basic strategy games—checkers, chess, fantasy and adventure games, word games, and team sports, such as T-ball and soccer.
 ```
-
+\
 The -r comman-line option recursively searches through an existing directory as well as the other directories inside of it. This is useful because it is an efficent way to know what it is a large amount of files. Additionally the output also shows which files have the result, making it easy to use to record information.
-
+\
 ## grep -w
-
+\
 Searches through the CH4.txt file for the whole word "skill", instead of showing results for other words such as "skills".
 
 ```
@@ -306,7 +306,7 @@ In the simple games of the late preschool and early school years, the play goal 
 At times, the adult might model a social skill or give the child examples of strategies, as in, “You could ask Paul, ‘Would you let me try it for a while?’ or you could say, ‘May we share it?’” At other times, the adult might encourage the child to generate possible strategies: “What could you do to get Mary and Andrea to let you play, too?” In each instance, parents and teachers select the level of support that best matches the child’s current social capacities and then pull back as the child acquires new social problem-solving skills. 
 Children at the upper end of this age range start to become interested in games. At ﬁrst, simple games that depend on chance rather than strategy or skill are best—lotto, dominoes, and card games based on matching and visual memory (such as Concentration).
 ```
-
+\
 Searches through the CH4.txt file for the whole word "are", instead of showing results for other words such as "ware".
 
 ```
@@ -367,5 +367,5 @@ Some experts worry that adult-structured athletics are robbing children of cruci
 To safeguard children’s learning and enthusiasm, make-believe play rather than organized sports is best for preschoolers. When children are ready for game play, permitting them to select sports they enjoy, to progress at their own pace, and to participate in decisions about team rules preserves the positive lessons discussed in this chapter—in cooperation, fair play, and willingly following social rules. Finally, practice times must be adjusted to children’s attention spans and need for unstructured time with family and peers. Two practices a week, each no longer than thirty minutes, is sufficient for 6- to 8-year-olds.98
 By observing children’s play themes, we can discover much about the values and identities that our culture—by way of homes, child-care centers, schools, and community youth activities—transmits to the next generation. As leaders in children’s development, parents and teachers are in a prime position to design and inﬂuence children’s play worlds in ways that shield them from acquiring materialistic and violent attitudes and behaviors and that accentuate play’s cognitive, emotional, and social beneﬁts. Vygotsky’s theory reminds us that as long as we think carefully about the play materials we offer, the style and content of adult–child play, and the social skills we encourage in children’s peer relations, make-believe play can nurture a wide range of capacities essential for academic, social, and later-life success.
 ```
-
+\
 The -w command-line option searches for whole words through a given directory or text file instead of showing other words that also include the targeted word. This is useful so you know which files contain certain words, and don't see an overwhelming amount of results.
