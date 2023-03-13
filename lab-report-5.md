@@ -3,7 +3,9 @@
 All of the information found about the different command lines was found using ChatGPT.
 
 ## grep -i
+
 This command searches through the CH4.txt file for instances of the characters "Hi" in lowercase and uppercase.
+
 ```
 [cs15lwi23aar@ieng6-202]:Berk:535$ grep -i "Hi" CH4.txt
 Two days a week, Kevin leaves his office 45 minutes early to take charge of his 2-year-old daughter, Sophie, while her mother, a university professor, teaches a late class. One balmy spring afternoon, Kevin retrieved Sophie at her child-care center and drove the 15-minute route home. Invited to look in on Sophie’s play, I met the pair at the front door and nestled into a rocking chair from which to observe unobtrusively.
@@ -184,7 +186,9 @@ Some experts worry that adult-structured athletics are robbing children of cruci
 To safeguard children’s learning and enthusiasm, make-believe play rather than organized sports is best for preschoolers. When children are ready for game play, permitting them to select sports they enjoy, to progress at their own pace, and to participate in decisions about team rules preserves the positive lessons discussed in this chapter—in cooperation, fair play, and willingly following social rules. Finally, practice times must be adjusted to children’s attention spans and need for unstructured time with family and peers. Two practices a week, each no longer than thirty minutes, is sufficient for 6- to 8-year-olds.98
 By observing children’s play themes, we can discover much about the values and identities that our culture—by way of homes, child-care centers, schools, and community youth activities—transmits to the next generation. As leaders in children’s development, parents and teachers are in a prime position to design and inﬂuence children’s play worlds in ways that shield them from acquiring materialistic and violent attitudes and behaviors and that accentuate play’s cognitive, emotional, and social beneﬁts. Vygotsky’s theory reminds us that as long as we think carefully about the play materials we offer, the style and content of adult–child play, and the social skills we encourage in children’s peer relations, make-believe play can nurture a wide range of capacities essential for academic, social, and later-life success.
 ```
+
 Searches for instances of "center" being written in uppercase or lowercase
+
 ```
 [cs15lwi23aar@ieng6-202]:Berk:536$ grep -i "center" CH4.txt
 Two days a week, Kevin leaves his office 45 minutes early to take charge of his 2-year-old daughter, Sophie, while her mother, a university professor, teaches a late class. One balmy spring afternoon, Kevin retrieved Sophie at her child-care center and drove the 15-minute route home. Invited to look in on Sophie’s play, I met the pair at the front door and nestled into a rocking chair from which to observe unobtrusively.
@@ -200,12 +204,16 @@ By observing children’s play themes, we can discover much about the values and
 The -i command-line option searches through certain files or directories for instances of words or characters being used regardless of case. This is useful because it shows a user where a word is being used caselessly, instead of having to search twice for uppercase and lowercase.
 
 ## grep -n
+
 Searches for the word "Hi" in CH4.txt and prints the line numbers as well.
+
 ```
 [cs15lwi23aar@ieng6-202]:Berk:537$ grep -n "Hi" CH4.txt
 153:Opportunities to acquire literacy-relevant skills also abound in make-believe play. In one kindergarten, children transformed the block-building area into a make-believe recycling center with the help of their teacher. Signs were prepared that advertised the new center, its hours, and what it would pay for various goods. As in other friendly businesses, attendants wore nametags, such as “Hi, I’m Charles!” When customers arrived with goods, the attendants had to ﬁll out receipts listing each item, its quantity, and its value. Since many children could not yet spell, they used ﬁrst letters or drew pictures of items. While doing so, they often became curious about how to write the full word and asked the teacher to help them. 
 ```
+
 Searches for the word "example" in CH4.txt and prints the line numbers as well.
+
 ```
 [cs15lwi23aar@ieng6-202]:Berk:536$ grep -i "center" CH4.txt
 Two days a week, Kevin leaves his office 45 minutes early to take charge of his 2-year-old daughter, Sophie, while her mother, a university professor, teaches a late class. One balmy spring afternoon, Kevin retrieved Sophie at her child-care center and drove the 15-minute route home. Invited to look in on Sophie’s play, I met the pair at the front door and nestled into a rocking chair from which to observe unobtrusively.
@@ -241,10 +249,13 @@ By observing children’s play themes, we can discover much about the values and
 302:Children’s make-believe places greater emphasis on imaginativeness and autonomy in Western individualistic nations than in collectivist societies. While American preschoolers often conjure up fantastic roles and vie with peers for the most stimulating and inﬂuential of them, children in Asian cultures devote more hours to play in which they perform actions in unison. For example, in a game called Bhatto Bhatto, East Indian children act out a trip to market requiring intricate touching of one another’s elbows and hands as they pretend to cut and share a tasty vegetable.89 On Children’s Day in the Peoples Republic of China, preschoolers gather on lawns outside their classrooms to perform large-group, highly scripted activities for their families. They sing stories conveying social and moral lessons while dramatizing them with complex hand motions and body postures, in which each child acts identically. 
 307:Children’s opportunities to engage in development-enhancing make-believe and game play are at risk in yet another way. Their lives are often heavily organized and scheduled. Many leave preschool, child-care, and primary-school settings, which may not recognize the value of play, for late-afternoon lessons and adult-organized sports leagues. Contributing to the rise in these adult-directed activities is a decline in neighborhood safety, making parents unwilling to allow their children to gather outside without supervision. In many American communities, child-organized games, handed down from one generation to the next—for example, red rover, statues, blind man’s buff, leapfrog, and endless variants on popular sports—are a thing of the past. 
 ```
+
 The -n command-line option searches for a word or assortment of characters in a given directory and provides the words along with the line numbers that they are found on. This is useful because it makes it easy to search for text and cite it accurately and efficiently.
 
 ## grep -r
+
 Searches through the entire ```Berk``` directory for the word "center".
+
 ```
 [cs15lwi23aar@ieng6-202]:Berk:540$ grep -r "center"
 CH4.txt:Two days a week, Kevin leaves his office 45 minutes early to take charge of his 2-year-old daughter, Sophie, while her mother, a university professor, teaches a late class. One balmy spring afternoon, Kevin retrieved Sophie at her child-care center and drove the 15-minute route home. Invited to look in on Sophie’s play, I met the pair at the front door and nestled into a rocking chair from which to observe unobtrusively.
@@ -274,16 +285,21 @@ ch1.txt:Much research conﬁrms that overloading children with input leads to di
 ch2.txt:To illustrate, suppose someone asked you to “tell the story of your life.” In forming a spontaneous autobiography, people link together smaller stories about incidents and occasions, with the self at their center and other inﬂuential people in supporting roles. The narrator arranges the stories sequentially, to conform to a culturally accepted organization of time. And he or she not only recounts, but justifies the stories—that is, makes them comprehensible by explaining why they happened as they did.53 
 ch7.txt:In a recent Australian study carried out by psychologist Freda Briggs, several hundred schoolchildren were asked for their views on school and classroom activities. Many boys between 5 and 9 years of age expressed dissatisfaction with school and said that their favorite activities were recess and lunchtime. But in four classrooms, distinguished by an activity-center curriculum offering opportunities for individual choice, small-group work, and literacy experiences responsive to children’s interests, boys reported strong liking for school. And they named reading and writing as their favorite activities. They particularly enjoyed making their own books, based on themes of sports and hobbies.71
 ```
+
 Searches through the entire ```Berk``` directory for the word "chess".
+
 ```
 [cs15lwi23aar@ieng6-202]:Berk:544$ grep -r "chess"
 CH4.txt:In the simple games of the late preschool and early school years, the play goal is very clear—in hide-and-seek, to keep the person who is “it” from ﬁnding you; in Chutes and Ladders, to travel a road with as many shortcuts and as few setbacks as possible, getting to the ﬁnish line ﬁrst. Gradually, the goals of children’s games become more distant and complex. Attaining those goals requires more intermediate steps and greater knowledge, skill, and coordination of play actions with those of others—in T-ball and kickball, scoring more runs than the other team while adhering to fair procedures for batting, pitching, and ﬁelding; in chess, moving each type of piece according to its special rule in an effort to checkmate the opposing king. 
 CH4.txt:Around ages 7 and 8, as children become more conscious of the rules of play, they like to act out scripted puppet shows and plays. As informal make-believe declines, game play strengthens. By the end of this period, children formulate and implement strategies and cooperate more effectively in games. They have also become interested in competition. Hence, they are ready for basic strategy games—checkers, chess, fantasy and adventure games, word games, and team sports, such as T-ball and soccer.
 ```
+
 The -r comman-line option recursively searches through an existing directory as well as the other directories inside of it. This is useful because it is an efficent way to know what it is a large amount of files. Additionally the output also shows which files have the result, making it easy to use to record information.
 
 ## grep -w
+
 Searches through the CH4.txt file for the whole word "skill", instead of showing results for other words such as "skills".
+
 ```
 [cs15lwi23aar@ieng6-202]:Berk:549$ grep -w "skill" CH4.txt
 In the simple games of the late preschool and early school years, the play goal is very clear—in hide-and-seek, to keep the person who is “it” from ﬁnding you; in Chutes and Ladders, to travel a road with as many shortcuts and as few setbacks as possible, getting to the ﬁnish line ﬁrst. Gradually, the goals of children’s games become more distant and complex. Attaining those goals requires more intermediate steps and greater knowledge, skill, and coordination of play actions with those of others—in T-ball and kickball, scoring more runs than the other team while adhering to fair procedures for batting, pitching, and ﬁelding; in chess, moving each type of piece according to its special rule in an effort to checkmate the opposing king. 
@@ -292,6 +308,7 @@ Children at the upper end of this age range start to become interested in games.
 ```
 
 Searches through the CH4.txt file for the whole word "are", instead of showing results for other words such as "ware".
+
 ```
 “Why are horse and cow lying down?” Kevin asked.
 “Oh, he wants a lollipop as well. What are we going to use for a lollipop for the leprechaun?” asked Kevin.
@@ -350,4 +367,5 @@ Some experts worry that adult-structured athletics are robbing children of cruci
 To safeguard children’s learning and enthusiasm, make-believe play rather than organized sports is best for preschoolers. When children are ready for game play, permitting them to select sports they enjoy, to progress at their own pace, and to participate in decisions about team rules preserves the positive lessons discussed in this chapter—in cooperation, fair play, and willingly following social rules. Finally, practice times must be adjusted to children’s attention spans and need for unstructured time with family and peers. Two practices a week, each no longer than thirty minutes, is sufficient for 6- to 8-year-olds.98
 By observing children’s play themes, we can discover much about the values and identities that our culture—by way of homes, child-care centers, schools, and community youth activities—transmits to the next generation. As leaders in children’s development, parents and teachers are in a prime position to design and inﬂuence children’s play worlds in ways that shield them from acquiring materialistic and violent attitudes and behaviors and that accentuate play’s cognitive, emotional, and social beneﬁts. Vygotsky’s theory reminds us that as long as we think carefully about the play materials we offer, the style and content of adult–child play, and the social skills we encourage in children’s peer relations, make-believe play can nurture a wide range of capacities essential for academic, social, and later-life success.
 ```
+
 The -w command-line option searches for whole words through a given directory or text file instead of showing other words that also include the targeted word. This is useful so you know which files contain certain words, and don't see an overwhelming amount of results.
