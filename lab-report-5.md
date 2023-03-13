@@ -296,7 +296,9 @@ CH4.txt:Around ages 7 and 8, as children become more conscious of the rules of p
 \
 The -r comman-line option recursively searches through an existing directory as well as the other directories inside of it. This is useful because it is an efficent way to know what it is a large amount of files. Additionally the output also shows which files have the result, making it easy to use to record information.
 \
+
 ## grep -w
+
 \
 Searches through the CH4.txt file for the whole word "skill", instead of showing results for other words such as "skills".
 \
