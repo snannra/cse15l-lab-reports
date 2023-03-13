@@ -299,7 +299,7 @@ The -r comman-line option recursively searches through an existing directory as 
 ## grep -w
 \
 Searches through the CH4.txt file for the whole word "skill", instead of showing results for other words such as "skills".
-\
+
 ```
 [cs15lwi23aar@ieng6-202]:Berk:549$ grep -w "skill" CH4.txt
 In the simple games of the late preschool and early school years, the play goal is very clear—in hide-and-seek, to keep the person who is “it” from ﬁnding you; in Chutes and Ladders, to travel a road with as many shortcuts and as few setbacks as possible, getting to the ﬁnish line ﬁrst. Gradually, the goals of children’s games become more distant and complex. Attaining those goals requires more intermediate steps and greater knowledge, skill, and coordination of play actions with those of others—in T-ball and kickball, scoring more runs than the other team while adhering to fair procedures for batting, pitching, and ﬁelding; in chess, moving each type of piece according to its special rule in an effort to checkmate the opposing king. 
